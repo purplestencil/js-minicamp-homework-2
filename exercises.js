@@ -67,8 +67,11 @@ function isPrime(num) {
     var prime = true;
     if (num === 0 || num === 1) {
         prime = false;
+    } else if (!(num = Math.round(num)) {
+        prime = false;
+    } 
     } else {
-        for (var i = 2; i < num; i++) {
+        for (var i = 2; i < Math.sqrt(num); i++) {
             if ((num % i) === 0) {
                 prime = false;
             }
