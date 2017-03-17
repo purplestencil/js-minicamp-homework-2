@@ -13,14 +13,8 @@
 2. ~Install git.  https://git-scm.com/downloads~  
 Git was already installed. 
 
-3. ~Fork and clone this repo.  When you need to commit use the following commands.~  
-Forked and cloned the repo using the following commands:
-		
-	* git status
-	* git add --all
-	* git status
-	* git commit -m "your commit message"
-	* git push origin master
+3. ~Fork and clone this repo.~  
+Forked and cloned the repo.
 
 4. ~Make the tests pass!~  
 Updated `exercises.js` and executed `npm test`. All tests ran successfully. 
